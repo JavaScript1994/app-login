@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/3655744.jpg'); /* Aquí solo va la URL */
+    background-repeat: no-repeat; /* Evitar que se repita la imagen */
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.card input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.card a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.card .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card .tasks {
+    margin: 15px 0;
+}
+
+.card .task {
+    background-color: #e7f0ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.card .task span {
+    float: right;
+    color: #333;
+}
+
+.card .progress {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9em;
+}
+
+.hidden {
+    display: none;
+}
+
+#imgLogin{
+    width: 100px;
+    height: 100px;
+}
+
